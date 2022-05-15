@@ -1,0 +1,398 @@
+<!DOCTYPE html> 
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href=" " type="image/x-icon">
+    <title>ODA</title>
+</head>
+<body>
+
+
+<nav class="navbar  text-primary  navbar-expand-lg navbar-light bg-light " >
+    
+    <div class="container-fluid">   
+        <button  class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="navbar-toggler">
+            <img src="/img/Burger_Menu.png" alt="">
+        </button>
+        <!-- xs,sm  -->
+        <a class="navbar-brand d-sm-block d-md-none" href="#"><img src="/img/oda_logo.png" alt=""></a>
+        <!-- md  -->
+        <a class="navbar-brand d-none d-md-block d-lg-none" href="#"><img src="/img/oda_logo.png" alt=""></a>
+        <div class="search d-none d-md-block d-lg-none">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#search1">
+                <img  src="/img/Icon_–_Search.png" alt="">
+            </a>
+            <div class="modal fade" id="search1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Search</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- xl -->
+        <a class="navbar-brand d-none d-lg-block d-xl-none" href="#"><img src="/img/oda_logo_big.png" alt=""></a>
+        <!-- xl -->
+        <a class="navbar-brand d-none d-xl-block " href="#"><img src="/img/oda_logo_big.png" alt=""></a>
+        
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link " href="#">Free trial</a>
+                </li>
+                <li class="nav-item   ">
+                    <a class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">Solution</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Demo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Community</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link d-none d-lg-block d-xl-none" href="#">Account</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link en d-none d-lg-block d-xl-none " href="#">EN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-none d-lg-block" href="#" data-bs-toggle="modal" data-bs-target="#search2">
+                        <img   src="/img/Icon_Search_lg_xxl.png" alt="">
+                    </a>
+                    <div class="modal fade" id="search2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Search</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="d-flex">
+                                        <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+                                        <button class="btn btn-outline-success" type="submit">Search</button>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-none d-lg-block d-xl-none"  href="#" data-bs-toggle="modal" data-bs-target="#user">
+                        <img src="/img/icon_Shape.png" alt="">
+                    </a>
+                    <div class="modal fade" id="user" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"> Enter</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form-floating mb-3">
+                                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                        <label for="floatingInput">E-mail address</label>
+                                    </div>
+                                    <div class="form-floating ">
+                                        <input type="password" class="form-control" id="floatingPassword" placeholder="Пароль">
+                                        <label for="floatingPassword">Password</label>
+                                    </div>
+                                    <div class="from-enter ">
+                                        <input class="btn btn-outline-primary" type="submit" value="Enter">
+                                    </div>
+                                    <div class="forget__password mt-3">
+                                        <a class="link-forget__password" href="#">Forget password</a>
+                                    </div>
+                                    <div class="new-user mt-4">
+                                        <span class="text-new-user ">New user?</span>
+                                        <a class="btn btn-outline-primary " href="#" role="button">Registration</a>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+
+<body>
+    <div class="equalizer">
+        <div class="container">
+            <div class="equalizer-demo d-none d-lg-block">
+                <div class="equalizer-demo-size ">
+                    <div class="equalizer-demo-text">Live Demo</div>
+                </div>
+            </div>
+            <div class="row pt-3 pt-sm-4 pt-md-5 ">
+                <div class="col  mt-sm-2  mt-xl-4  text-center">
+                    <h1 class="first-row">The Equalizer for CAD Development</h1>
+                </div>
+            </div>
+            <div class="row mt-4 mt-sm-3 mt-lg-3 mt-xl-1">
+                <div class="col text-center">
+                    <h2 class="second-row">Premium SDKs for the professional CAD developer</h2>
+                </div>
+            </div>
+            <div class="row mt-3 mt-md-4 pt-md-3 mt-lg-5 pt-lg-0">
+                <div class="col text-center">
+                    <span class="third-row">Trusted by</span>
+                </div>
+            </div>
+        </div>
+        <div class="row  justify-content-center  ">
+            <div class=" col-12 col-md-4 col-lg-2 p-4 p-md-3 p-lg-4 text-center order-md-4 order-1">
+                <img src="/img/bentley.png" alt="">
+            </div>
+            <div class=" col-md-4 col-lg-2 p-4 p-md-3 p-lg-4 d-none d-md-block text-center order-md-0">
+                <img src="/img/dassault.png" alt="">
+            </div>
+            <div class=" col-12 col-md-4 col-lg-2 p-4 p-md-3 p-lg-4 text-center order-md-1 order-0">
+                <img src="/img/siemens.png" alt="">
+            </div>
+            <div class=" col-md-4 col-lg-2 p-4 p-md-3 p-lg-4 d-none d-md-block text-center order-md-2" >
+                <img src="/img/hexagon.png" alt="">
+            </div>
+            <div class=" col-md-4 col-lg-2 p-4 p-md-3 p-lg-4 d-none d-md-block text-center order-md-3">
+                <img src="/img/onshape.png" alt="">
+            </div>
+            <div class=" col-md-4 p-4 p-md-3 p-lg-4 d-none d-md-block d-lg-none text-center order-md-5">
+                <img src="/img/bentley.png" alt="">
+            </div>
+        </div>
+        <div class="row text-center mt-3 mt-md-4 mt-lg-5">
+            <div class="col">
+                <span class="fourth-row">What is ODA</span>
+            </div>
+        </div>
+        <div class="row text-center mt-3 ">
+            <div class="col">
+                <a href=""><img class="fifth-row" src="/img/you_tube.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+<!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+
+<div class="leveling ">
+    <div class="container">
+        <div class="row justify-content-center mt-4 pt-3 mt-lg-5 pt-lg-5">
+            <div class="col-10 col-sm-10 col-lg-8 col-xl-6 col-xxl-6 mt-lg-4 d-md-none d-lg-block text-center  ">
+                <h2 class="leveling-title">
+                    Leveling the playing field for engineering application development
+                </h2>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-3 mb-3 mb-lg-5 ">
+            <div class="  col-12 col-sm-8 col-lg-4 col-xl-4 col-xxl-4 d-md-none d-lg-block text-center my-5 ">
+                <img src="/img/file.png" alt="">
+                <h4 class="leveling-subtitle mt-3">.dwg Toolset</h4>
+                <p class="leveling-description mt-3">Integrate .dwg support into any application or build your own .dwg-based visualization or authoring tools.</p>
+                <a class="leveling-link mt-4" href=""> Discover .dwg Toolset</a>
+            </div>
+            <div class="  col-12 col-sm-8 col-lg-4 col-xl-4 col-xxl-4 d-md-none d-lg-block text-center  my-5">
+                <img src="/img/box_.png" alt="">
+                <h4 class="leveling-subtitle mt-3">BIM Suite</h4>
+                <p class="leveling-description mt-3">Interoperability toolkits for Autodesk® Revit® files, Autodesk® Navisworks® files, IFC, and more.</p>
+                <a class="leveling-link mt-4" href=""> Discover BIM Suite</a>
+            </div>
+            <div class=" col-12 col-sm-8 col-lg-4 col-xl-4 col-xxl-4 d-md-none d-lg-block text-center  my-5">
+                <img src="/img/lightning.png" alt="">
+                <h4 class="leveling-subtitle mt-3">Technology Stack</h4>
+                <p class="leveling-description mt-3">Sophisticated components for visualization, web development, publishing, modeling, and more.</p>
+                <a class="leveling-link mt-4" href=""> Discover Technology Stack</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="leveling-carousel pb-5">
+    <div class="container">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide  d-none d-md-block d-lg-none"
+            data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active text-center my-4">
+                    <h2 class="leveling-title">Leveling the playing field for engineering <br> application development</h2>
+                    <img class="mt-5 mb-4" src="/img/box_.png" alt="">
+                    <h4 class="leveling-subtitle mt-4" >BIM Suite</h4>
+                    <p class="leveling-description-carousel mt-4 pt-2">Interoperability toolkits for Autodesk® Revit® <br> files, Autodesk® Navisworks® files, IFC, and more.</p>
+                    <a class="leveling-link mt-4 pt-2" href=""> Discover BIM Suite</a>
+                </div>
+                <div class="carousel-item  text-center my-4">
+                    <h2 class="leveling-title">Leveling the playing field for engineering <br> application development</h2>
+                    <img class="mt-5 mb-4" src="/img/lightning.png" alt="">
+                    <h4 class="leveling-subtitle mt-4">Technology Stack</h4>
+                    <p class="leveling-description-carousel mt-4 pt-2">Sophisticated components for visualization, web development, publishing, modeling, and more.</p>
+                    <a class="leveling-link mt-4 pt-2" href=""> Discover BIM Suite</a>
+                </div>
+                <div class="carousel-item  text-center my-4">
+                    <h2 class="leveling-title">Leveling the playing field for engineering <br> application development</h2>
+                    <img class="mt-5 mb-4" src="/img/file.png" alt="">
+                    <h4 class="leveling-subtitle mt-4">.dwg Toolset</h4>
+                    <p class="leveling-description-carousel mt-4 pt-2">Integrate .dwg support into any application or build your own .dwg-based visualization or authoring tools.</p>
+                    <a class="leveling-link mt-4 pt-2" href=""> Discover .dwg Toolset</a>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-left" aria-hidden="true"><img src="/img/Triangle_left.png" alt=""></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-right" aria-hidden="true"><img src="/img/Triangle_right.png" alt=""></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+
+<div class="devcon p-5">
+    <div class="container">
+        <div class=" row mt-4 mt-lg-5 pb-lg-5">
+            <div class="col-12 col-lg-4 text-center">
+                <div class="col text-center text-lg-start">
+        
+                    <h2 class="devcon-title">ODA DevCon 2019</h2>
+                </div>
+                <div class="devcon-subtitle col text-center text-lg-start">
+                    <span>Milan, Italy, September 10-11th</span>
+                </div>
+                <div class="devcon-title2 col text-center text-lg-start mt-3 mt-md-2 mt-lg-4">
+                    <h2>New Opportunities with BIM + Cloud</h2>
+                </div>
+            </div>
+            <div class="devcon-text col-10 col-lg-5 text-center text-lg-start mx-xl-5 mt-md-5 mt-lg-0">
+                <span class=" d-xl-none">ODA is pleased to announce our 6th annual DevCon event, with a change in venue this year. 
+                    Join us in Milan to learn about the latest advancements in ODA technology, and consult with the ODA team.</span>
+                <span class="devcon-text-border d-none d-xl-block">ODA is pleased to announce our 6th annual DevCon event, with a change in venue this year.
+                    Join us in Milan to learn about the latest advancements in ODA technology, and consult with the ODA team.</span>
+            </div>
+            
+            <div class="col-12 col-lg-4 mt-4 mt-md-5 mt-lg-4 text-center text-lg-start">
+                <div class="devcon-inf col">
+                    For more information, please visit
+                </div>
+                <div >
+                    <a class="devcon-link col" href="">conference.opendesign.com.</a>
+                </div>
+                <div class="d-none d-lg-block">
+                    <div class="devcon-line"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+
+<div class="design-less p-5 d-xl-none">
+        <div class="container">
+            <div class="row pt-4 p-md-4 pt-lg-5 g-lg-5">
+                <div class=" col-12 col-lg-3 mt-lg-4 pt-lg-3  text-center text-lg-start ">
+                    <span class="design-title  ">
+                        Open Design Alliance is a non-profit technology consortium of 1200 member companies, working together to develop solutions for complex enginering design problems.
+                    </span>
+                </div>
+                <div class="col-12 col-lg-7 mt-5 mt-md-5 mt-lg-4  ">
+                    <div class="row row-cols-2 mx-md-5">
+                        <div class=" col p-3 ">
+                            <h4 class="design-text-title">Professional Development</h4>
+                            <p class="design-text-text">Team of more than <br> 80 full-time engineers</p>
+                        </div>
+                        <div class="colp p-3 ">
+                            <h4 class="design-text-title">Superior Business Model</h4>
+                            <p class="design-text-text">Non-profit with 80% <br> of revenue to R&D</p>
+                        </div>
+                        <div class="col p-3">
+                            <h4 class="design-text-title">Industry Cooperation <br> and Oversight</h4>
+                            <p class="design-text-text">1200 member companies <br> world-wide</p>
+                        </div>
+                        <div class="col p-3">
+                            <h4 class="design-text-title">Transparent Pricing</h4>
+                            <p class="design-text-text">Published fee schedule <br> & free tech support</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+<div class="design-more p-5 d-none d-xl-block">
+    <div class="container">
+        <div class="row pt-4 p-md-4 pt-lg-5 g-lg-5">
+            <div class=" col-12 col-lg-3 mt-lg-4 pt-lg-3  text-center text-lg-start ">
+                <span class="design-title  ">
+                    Open Design Alliance is a non-profit technology consortium of 1200 member companies, working
+                    together to develop solutions for complex enginering design problems.
+                </span>
+            </div>
+            <div class="col-12 col-lg-7 mt-5 mt-md-5 mt-lg-4  ">
+                <div class="row row-cols-2  mx-xl-5">
+                    <div class=" col p-3 ">
+                        <h4 class="design-text-title">Professional Development</h4>
+                        <p class="design-text-text">Team of more than <br> 80 full-time engineers</p>
+                    </div>
+                    <div class="colp p-3 ">
+                        <h4 class="design-text-title">Superior Business Model</h4>
+                        <p class="design-text-text">Non-profit with 80% <br> of revenue to R&D</p>
+                    </div>
+                    <div class="col p-3">
+                        <h4 class="design-text-title">Industry Cooperation <br> and Oversight</h4>
+                        <p class="design-text-text">1200 member companies <br> world-wide</p>
+                    </div>
+                    <div class="col p-3">
+                        <h4 class="design-text-title">Transparent Pricing</h4>
+                        <p class="design-text-text">Published fee schedule <br> & free tech support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+
+</body>
+    <script src="https://kit.fontawesome.com/ba4366a670.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" 
+    crossorigin="anonymous"></script>
+</body>
+<html> 
+
+
+
